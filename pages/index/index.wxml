@@ -1,0 +1,37 @@
+<!--
+<view class="swiper-tab" style="border-bottom:1px solid #aaa;">
+    <view class="{{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">外汇新闻</view>
+    <view class="{{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">外汇分析</view>
+</view>
+-->
+<view class="logo">
+  <image style="width:400rpx; height: 70rpx; background-color: #fff; vertical-align: middle;margin-right:20rpx;" mode="scaleToFill" src="../../imgs/logo.gif"></image>
+</view>
+
+<view style="background:#eee;">
+
+  <swiper bindtap="seeLunboDetail" indicator-dots="true" autoplay="true" interval="4000" duration="500" style="height:205px;">
+    <block wx:for="{{lunboData}}">
+      <swiper-item>
+        <image style="height:160px;" src="https://www.hytips.com{{item.litpic}}" />
+        <view style=" color: #333;font-size: 16px;padding: 0 3px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;text-align: center;">{{item.title}}</view>
+        <view class="arc-list-zhezhao" data-num="{{index}}"></view>
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view style='background:white;margin-top:40rpx;'>
+    <view class='search'>
+      <!--<image src='../../imgs/search.svg' style='width:10%;height:20px;'></image>-->
+      <input bindconfirm='search' bindinput='storeKW' bindfocus='clear' value="{{kw}}" placeholder='如:周大福' confirm-type='search' class='search-input'></input>
+      <button size='mini' style='width:20%;height:36px;font-size:15px;padding:0;' bindtap='buttonSearch'>搜 索</button>
+    </view>
+    
+    <view  style="display:flex;flex-wrap:wrap; justify-content: space-between;padding:2%">
+      <view bindtap="seeDetailPrice" wx:for="{{jindian}}" class='arc-list' data-id='{{item.id}}' style='background:#FFF7E3;padding:15px 10px;'>
+        {{item.name}} >>
+      </view>
+    </view>
+  </view>
+
+</view>

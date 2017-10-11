@@ -1,0 +1,41 @@
+/**app.wxss**/
+@import "/wxParse/wxParse.wxss";
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 200rpx 0;
+    box-sizing: border-box;
+}
+
+image {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+view, text {
+    font-family: "微软雅黑";
+}
+
+.logo {
+    flex-direction: column;
+    height: 80rpx;
+    line-height: 80rpx;
+    padding: 10rpx 40rpx;
+    font-size: 26rpx;
+    color: #888;
+    background: #fff;
+}
+.arc-list-zhezhao{
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    position: absolute;
+    background: #eee;
+    opacity: 0.1;
+}

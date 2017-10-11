@@ -1,0 +1,25 @@
+.search {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2% 30rpx;
+  font-size: 15px;
+}
+
+.search-input {
+  width: 80%;
+  height: 30px;
+  border: 1px solid #ccc;
+  padding: 2px 20rpx;
+}
+
+.arc-list {
+  margin-bottom: 15rpx;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  position: relative;
+  width: 43%;
+  font-size: 15px;
+}
+

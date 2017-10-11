@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/home/home",
+    "pages/arcdetail/arcdetail",
+    "pages/lubodetail/lunbodetail",
+    "pages/compare/compare",
+    "pages/selectJindian/selectJindian"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#338FFF",
+    "navigationBarTextStyle": "dark",
+    "navigationBarTitleText": "实物黄金价查询一点通",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "金价",
+        "selectedColor": "#338FFF",
+        "iconPath": "imgs/tab_01.jpg",
+        "selectedIconPath": "imgs/tab_01.jpg"
+      },
+      {
+        "pagePath": "pages/compare/compare",
+        "text": "比价",
+        "selectedColor": "#338FFF",
+        "iconPath": "imgs/tab_02.jpg",
+        "selectedIconPath": "imgs/tab_02.jpg"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "我的",
+        "selectedColor": "#338FFF",
+        "iconPath": "imgs/tab_03.jpg",
+        "selectedIconPath": "imgs/tab_03.jpg"
+      }
+    ]
+  }
+}

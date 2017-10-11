@@ -1,0 +1,9 @@
+<view style='background:#efefef'>
+  <input bindconfirm='search' bindinput='storeKW' type='text' bindfocus='clear' value="{{kw}}" placeholder='搜索' confirm-type='search' class='search-input'></input>
+
+  <view>
+    <view wx:for="{{jindianList}}" class='jindianList' bindtap='gotoCompare' data-selectnum='{{item.id-1}}'>
+      {{item.name}}  <text class="selected {{item.selected ? 'on' : ''}}" >√</text>
+    </view>
+  </view>
+</view>

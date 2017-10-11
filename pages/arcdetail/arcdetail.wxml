@@ -1,0 +1,14 @@
+<view style=''>
+  <view class='outer-table' style='font-weight:bold;'>
+    <view style='width:43%;padding-left: 5px;'>名称</view>
+    <view style='width:13%;'>价格</view>
+    <view style='width:19%'>单位</view>
+    <view style='width:23%'>日期</view>
+  </view>
+  <view wx:for="{{data}}" class='outer-table'>
+    <view style='width:43%;padding-left:10rpx;text-align:left;'>{{item.name}}</view>
+    <view style='width:13%;'>{{item.jiage}}</view>
+    <view style='width:19%'>{{item.danwei}}</view>
+    <view style='width:23%'>{{item.date}}</view>
+  </view>
+</view>

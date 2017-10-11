@@ -1,0 +1,17 @@
+.contain {
+  padding: 30rpx 35rpx;
+  font-size: 28rpx;
+  background: #fff;
+}
+.progress-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10rpx 0;
+  color: #999;
+}
+.title{
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+}

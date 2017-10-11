@@ -1,0 +1,15 @@
+<view class="contain" wx:for="{{initPriceData}}">
+  <view class="progress-list" bindtap='selectJindian' data-row='{{index}}' data-id='{{item.id}}'>
+    <progress percent="{{item.percent}}" activeColor="#338FFF" stroke-width="20" active />
+    <view class="progress-text">
+      <view>
+        <view class='title'>{{item.name}} (点击切换品牌)</view>
+        <view>{{item.date}}</view>
+      </view>
+      <view>
+        <view style='color:red'>{{item.jiage}}</view>
+        <view>{{item.danwei}}</view>
+      </view>
+    </view>
+  </view>
+</view>

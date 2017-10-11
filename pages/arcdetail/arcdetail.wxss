@@ -1,0 +1,15 @@
+.outer-table{
+  display: flex;
+  flex-wrap:wrap;
+  font-size: 30rpx;
+  box-sizing: border-box;
+  text-align:center;
+}
+.outer-table view{
+    box-sizing: border-box;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    height: 60rpx;
+    line-height: 60rpx;
+    overflow: hidden;
+}
