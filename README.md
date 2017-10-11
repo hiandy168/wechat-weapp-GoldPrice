@@ -2,7 +2,7 @@
 
 
 ## 软件截图：
-![图1](imgs/md/1.gif)  ![图2](imgs/md/2.gif)  ![图3](imgs/md/3.gif)  ![图4](imgs/md/4.gif)
+![图1](imgs/1.gif)  ![图2](imgs/2.gif)  ![图3](imgs/3.gif) 
 
 
 ## 特点：
