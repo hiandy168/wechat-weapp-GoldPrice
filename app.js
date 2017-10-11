@@ -2,7 +2,7 @@
 App({
     globalData: {
         userInfo: null,
-        AppID: 'wxced71a57a146899b',
+        AppID: 'xxxxxxxxx',
         openid: '',
     },
     onLaunch: function () {
@@ -20,7 +20,7 @@ App({
                         url: 'https://test.hytips.com/wechat/ForexWeb1/forex_require_url.php',
                         data: {
                             appid: that.globalData.AppID,
-                            secret: '06bc6cf0214e904cb19256ef527e862c',
+                            secret: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx',
                             js_code: res.code,
                             grant_type: 'authorization_code'
                         },
